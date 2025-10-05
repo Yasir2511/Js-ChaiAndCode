@@ -10,7 +10,7 @@ let undefinedNumber//Undefined
 const Id=Symbol('123')//symbol
 const anotherId=Symbol('123')//symbol
 
-console.log(Id===anotherId)//check it is equal or not
+// console.log(Id===anotherId)//check it is equal or not
 
 const BigNumber=32736893826n//BigInt
 
@@ -26,6 +26,24 @@ let myObj={
     console.log("hello");
     
  }
- console.log(typeof myFunction)
- console.log(typeof myObj)
- console.log(typeof Arr)
+//  console.log(typeof myFunction)
+//  console.log(typeof myObj)
+//  console.log(typeof Arr)
+
+ //++++++++++++++++++++++++++++++++++
+ let myYoutubeName="acheiving goals";
+
+let anothername=myYoutubeName
+   console.log(anothername)
+   anothername="chaiorcode"
+   console.log(myYoutubeName)
+   console.log(anothername)
+
+let userone={
+    name:"yaser",
+    age:"18"
+}
+let usertwo=userone
+usertwo.name="yaser viqar"
+console.log(userone);
+console.log(usertwo);
